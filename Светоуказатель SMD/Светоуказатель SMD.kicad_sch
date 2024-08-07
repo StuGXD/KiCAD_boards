@@ -2846,348 +2846,6 @@
 				)
 			)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start 1.524 1.27)
-					(mid 0 1.778)
-					(end -1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Jumper:Jumper_3_Open"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_3_Open"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 3-pole, both open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPDT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_3_Open_0_0"
-				(circle
-					(center -3.302 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.302 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_3_Open_0_1"
-				(arc
-					(start -0.254 1.016)
-					(mid -1.651 1.4992)
-					(end -3.048 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.048 1.016)
-					(mid 1.651 1.4992)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_3_Open_1_1"
-				(pin passive line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MCU_ST_STM32F1:STM32F103C8Tx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5749,6 +5407,10 @@
 		(uuid "7982e3fc-9f99-47e6-8d89-fe7ab290d65c")
 	)
 	(no_connect
+		(at 320.04 85.09)
+		(uuid "83ffe9c3-2b1d-49e6-9791-3b027f2014b6")
+	)
+	(no_connect
 		(at 340.36 105.41)
 		(uuid "8a69767a-5f85-4479-81ed-a5017e0d0a03")
 	)
@@ -5908,16 +5570,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 82.55) (xy 271.78 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c059e34-62e6-4072-aa17-1be115e92363")
-	)
-	(wire
-		(pts
 			(xy 330.2 77.47) (xy 334.01 77.47)
 		)
 		(stroke
@@ -6038,7 +5690,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 82.55) (xy 271.78 80.01)
+			(xy 288.29 95.25) (xy 288.29 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6298,16 +5950,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 85.09) (xy 320.04 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3306ea35-3f13-4577-b3e2-d4ff64bb634d")
-	)
-	(wire
-		(pts
 			(xy 307.34 100.33) (xy 279.4 100.33)
 		)
 		(stroke
@@ -6378,16 +6020,6 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 78.74) (xy 316.23 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "397776c4-f72f-4868-b717-4a3ee2a2e06e")
-	)
-	(wire
-		(pts
 			(xy 110.49 96.52) (xy 125.73 96.52)
 		)
 		(stroke
@@ -6455,16 +6087,6 @@
 			(type default)
 		)
 		(uuid "3e3848f9-99cf-4596-80a3-8bec7b814a7a")
-	)
-	(wire
-		(pts
-			(xy 316.23 74.93) (xy 307.34 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eca27bb-483d-4d83-b683-bfedc028f9d4")
 	)
 	(wire
 		(pts
@@ -6628,16 +6250,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 78.74) (xy 316.23 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c7b5d16-4e24-457e-a10d-45481a3b2a98")
-	)
-	(wire
-		(pts
 			(xy 204.47 43.18) (xy 204.47 46.99)
 		)
 		(stroke
@@ -6658,16 +6270,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 124.46) (xy 281.94 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50c75d95-a97f-42cb-81b8-2ece080d286b")
-	)
-	(wire
-		(pts
 			(xy 110.49 58.42) (xy 110.49 62.23)
 		)
 		(stroke
@@ -6685,16 +6287,6 @@
 			(type default)
 		)
 		(uuid "5349e8ae-3cea-4141-86f0-e012467ec1b5")
-	)
-	(wire
-		(pts
-			(xy 289.56 82.55) (xy 292.1 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "544bf057-102a-4a83-aaf4-63f122c0a713")
 	)
 	(wire
 		(pts
@@ -6768,16 +6360,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 124.46) (xy 259.08 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "594609db-caaf-4122-b0e1-f04f07ec420b")
-	)
-	(wire
-		(pts
 			(xy 133.35 240.03) (xy 133.35 243.84)
 		)
 		(stroke
@@ -6845,16 +6427,6 @@
 			(type default)
 		)
 		(uuid "626640ac-23ea-4e16-a2b2-cdd80fe0f0ec")
-	)
-	(wire
-		(pts
-			(xy 283.21 86.36) (xy 283.21 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "628d1f79-516e-4e60-a51e-27bc91e5e543")
 	)
 	(wire
 		(pts
@@ -7388,16 +6960,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 95.25) (xy 293.37 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d769ab6-6ebf-4e0e-b8dc-1460587a034b")
-	)
-	(wire
-		(pts
 			(xy 279.4 111.76) (xy 265.43 111.76)
 		)
 		(stroke
@@ -7458,7 +7020,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 134.62) (xy 270.51 134.62)
+			(xy 285.75 134.62) (xy 281.94 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7615,16 +7177,6 @@
 			(type default)
 		)
 		(uuid "adb9cbdd-df50-4065-a420-51c44b72a3ac")
-	)
-	(wire
-		(pts
-			(xy 290.83 74.93) (xy 297.18 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1b9d776-3e06-4507-95db-6a6d82067d70")
 	)
 	(wire
 		(pts
@@ -7918,16 +7470,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 82.55) (xy 292.1 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd013b9a-ba0f-4c50-973e-9819c66be0ca")
-	)
-	(wire
-		(pts
 			(xy 318.77 232.41) (xy 323.85 232.41)
 		)
 		(stroke
@@ -8018,7 +7560,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 124.46) (xy 259.08 121.92)
+			(xy 281.94 134.62) (xy 281.94 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8238,16 +7780,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 124.46) (xy 281.94 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e80a4e5f-00d4-4caf-9ed2-5b0eb78a308f")
-	)
-	(wire
-		(pts
 			(xy 181.61 240.03) (xy 181.61 222.25)
 		)
 		(stroke
@@ -8325,16 +7857,6 @@
 			(type default)
 		)
 		(uuid "ed630345-9765-4618-8e7b-b88f27b2a57e")
-	)
-	(wire
-		(pts
-			(xy 270.51 134.62) (xy 270.51 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee9105f7-e8b1-4e02-9a14-3135eab7dc82")
 	)
 	(wire
 		(pts
@@ -8485,6 +8007,16 @@
 			(type default)
 		)
 		(uuid "fca1e6f0-d663-4644-950c-01b1f45e038e")
+	)
+	(wire
+		(pts
+			(xy 288.29 95.25) (xy 293.37 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff38f9a7-72c4-4e66-afcb-db4dc5ea1ae0")
 	)
 	(text "Вход\n5В"
 		(exclude_from_sim no)
@@ -9127,71 +8659,6 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 292.1 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0766f829-7558-473d-a2d1-070c03c0de7d")
-		(property "Reference" "#PWR013"
-			(at 292.1 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 292.1 87.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 292.1 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 292.1 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 292.1 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb72adb8-01df-4c18-b261-13ab216832bb")
-		)
-		(instances
-			(project "Светоуказатель SMD"
-				(path "/1523de4a-da24-4c82-b9d8-33e961f3380e"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
 		(at 323.85 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9537,77 +9004,6 @@
 			(project "Светоуказатель SMD"
 				(path "/1523de4a-da24-4c82-b9d8-33e961f3380e"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_3_Open")
-		(at 270.51 124.46 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "135e6a9f-4737-42dd-aa1a-23c1bf32e93e")
-		(property "Reference" "JP3"
-			(at 270.51 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BOOT1_MODE"
-			(at 270.51 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 270.51 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 3-pole, both open"
-			(at 270.51 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4191a601-37d0-4cd4-96d0-220c5c735806")
-		)
-		(pin "3"
-			(uuid "32aed70e-2a5b-479e-bd33-fe34bfa3d31f")
-		)
-		(pin "1"
-			(uuid "3f6cea34-d756-4b68-ab02-c86e729b6577")
-		)
-		(instances
-			(project "Светоуказатель SMD"
-				(path "/1523de4a-da24-4c82-b9d8-33e961f3380e"
-					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -10834,7 +10230,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 271.78 80.01 0)
+		(at 288.29 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10842,7 +10238,7 @@
 		(dnp no)
 		(uuid "3d07eadd-b445-4149-8e5c-803579f5cebb")
 		(property "Reference" "#PWR012"
-			(at 271.78 83.82 0)
+			(at 288.29 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10851,7 +10247,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 267.716 77.978 0)
+			(at 284.226 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10859,7 +10255,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 80.01 0)
+			(at 288.29 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10868,7 +10264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 80.01 0)
+			(at 288.29 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10877,7 +10273,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 271.78 80.01 0)
+			(at 288.29 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11543,77 +10939,6 @@
 			(project "Светоуказатель SMD"
 				(path "/1523de4a-da24-4c82-b9d8-33e961f3380e"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_3_Open")
-		(at 283.21 82.55 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51a5ce16-bc5a-4efa-a978-45836191f531")
-		(property "Reference" "JP2"
-			(at 283.21 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BOOT0_MODE"
-			(at 283.21 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 283.21 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 283.21 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 3-pole, both open"
-			(at 283.21 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "539dd26c-8808-492d-b637-a34b308cf474")
-		)
-		(pin "3"
-			(uuid "4821c011-c4db-4f45-8d10-4e18dc4322ec")
-		)
-		(pin "1"
-			(uuid "ed43bf88-4aa9-4d6a-825d-861d04d6c9d4")
-		)
-		(instances
-			(project "Светоуказатель SMD"
-				(path "/1523de4a-da24-4c82-b9d8-33e961f3380e"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -12642,71 +11967,6 @@
 			(project "Светоуказатель SMD"
 				(path "/1523de4a-da24-4c82-b9d8-33e961f3380e"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 290.83 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7dea8fcf-8d08-48a6-b710-0c77ed491325")
-		(property "Reference" "#PWR010"
-			(at 290.83 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 287.02 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 290.83 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 290.83 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 290.83 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ab7ccc7-81b8-4337-bfeb-f6dc2c714036")
-		)
-		(instances
-			(project "Светоуказатель SMD"
-				(path "/1523de4a-da24-4c82-b9d8-33e961f3380e"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -13744,72 +13004,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 281.94 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a586cb96-b900-4e93-8e9b-c28c92a56b25")
-		(property "Reference" "#PWR021"
-			(at 281.94 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 281.94 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 281.94 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a12a7e86-fc6b-4392-80a1-7a75fe7f0538")
-		)
-		(instances
-			(project "Светоуказатель SMD"
-				(path "/1523de4a-da24-4c82-b9d8-33e961f3380e"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_TVS")
 		(at 45.72 49.53 90)
 		(unit 1)
@@ -14755,73 +13949,6 @@
 			(project "Светоуказатель SMD"
 				(path "/1523de4a-da24-4c82-b9d8-33e961f3380e"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 302.26 74.93 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c742f236-601c-4902-baa0-8fdfa69ea86f")
-		(property "Reference" "JP1"
-			(at 302.26 71.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBAT_PWR"
-			(at 302.26 76.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 302.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 302.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 302.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5e28c1f5-fc62-4718-841c-fb905e13c9dc")
-		)
-		(pin "1"
-			(uuid "1e57b17d-e082-445a-b551-d6c87d88a410")
-		)
-		(instances
-			(project "Светоуказатель SMD"
-				(path "/1523de4a-da24-4c82-b9d8-33e961f3380e"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -15905,7 +15032,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 259.08 121.92 0)
+		(at 281.94 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15913,7 +15040,7 @@
 		(dnp no)
 		(uuid "f822fce8-c2f5-42aa-af38-25d4ff927fc6")
 		(property "Reference" "#PWR019"
-			(at 259.08 125.73 0)
+			(at 281.94 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15922,7 +15049,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 254.762 120.396 0)
+			(at 277.622 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15930,7 +15057,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 121.92 0)
+			(at 281.94 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15939,7 +15066,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 121.92 0)
+			(at 281.94 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15948,7 +15075,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 259.08 121.92 0)
+			(at 281.94 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
